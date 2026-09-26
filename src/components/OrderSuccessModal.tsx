@@ -113,7 +113,7 @@ export const OrderSuccessModal: React.FC<OrderSuccessModalProps> = ({
               Fast-Track WhatsApp Verification
             </div>
             <p className="text-xs text-emerald-800/80 font-sans leading-relaxed">
-              Tap the button below to share your order details and payment screenshot directly with Chef Aqsa on WhatsApp (+91 8277483778):
+              Tap the button below to share your order details and payment screenshot directly with Chef Aqsa on WhatsApp (+91 8277463778):
             </p>
             <a
               href={whatsappUrl}

@@ -9,11 +9,11 @@ export const BRAND_LOGO_URL = "/assets/logo.svg";
 
 // Official Company Contact Numbers (Orders & Inquiries)
 // Printed on Crave & Co and The Cream Room official menu cards
-export const COMPANY_PHONE = "8277483778";
-export const COMPANY_PHONE_USER_QUERY = "827763778";
-export const COMPANY_PHONE_DISPLAY = "+91 8277483778";
-export const COMPANY_WHATSAPP = "918277483778";
-export const WHATSAPP_NUMBER = "918277483778"; // Company WhatsApp for ordering & inquiries
+export const COMPANY_PHONE = "8277463778";
+export const COMPANY_PHONE_USER_QUERY = "8277463778";
+export const COMPANY_PHONE_DISPLAY = "+91 8277463778";
+export const COMPANY_WHATSAPP = "918277463778";
+export const WHATSAPP_NUMBER = "918277463778"; // Company WhatsApp for ordering & inquiries
 
 // PAYMENT ONLY DETAILS
 // As specified: "only the payment number will be 9284395267"

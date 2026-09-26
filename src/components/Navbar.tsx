@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BRAND_NAME, BRAND_LOGO_URL, WHATSAPP_NUMBER, COMPANY_PHONE } from '../config/brand';
+import { BRAND_NAME, BRAND_LOGO_URL, WHATSAPP_NUMBER, COMPANY_PHONE, COMPANY_PHONE_DISPLAY } from '../config/brand';
 import { ShoppingBag, MessageCircle, Clock, MapPin, History, Menu, X, Award, BookOpen } from 'lucide-react';
 
 interface NavbarProps {
@@ -107,7 +107,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="hidden md:flex items-center gap-1.5 text-[#25D366] hover:text-emerald-400 font-medium transition-colors"
             >
               <MessageCircle className="w-3.5 h-3.5" />
-              <span>+91 8277483778</span>
+              <span>{COMPANY_PHONE_DISPLAY}</span>
             </a>
           </div>
         </div>
@@ -305,7 +305,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="w-full flex items-center justify-center gap-2 bg-[#25D366] text-white py-2.5 rounded-xl font-bold text-xs shadow-sm"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>Direct WhatsApp: +91 8277483778</span>
+              <span>Direct WhatsApp: {COMPANY_PHONE_DISPLAY}</span>
             </a>
           </div>
         </div>

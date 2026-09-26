@@ -329,7 +329,7 @@ export const RECIPE_FEATURES = [
   "Professional bakery tips & tricks directly from Chef Aqsa",
   "Storage guidelines, freezing techniques & shelf life advice",
   "Troubleshooting tips for common amateur & commercial mistakes",
-  "WhatsApp support for recipe-related queries directly with Chef Aqsa (+91 8277483778)",
+  "WhatsApp support for recipe-related queries directly with Chef Aqsa (+91 8277463778)",
   "Dedicated call support (by prior appointment) for personalized guidance",
   "Immediate PDF delivery + WhatsApp confirmation after UPI checkout"
 ];

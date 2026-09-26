@@ -172,8 +172,8 @@ export const SISTER_BRANDS: SisterBrand[] = [
     id: "the-crave-co",
     name: "Crave & Co.",
     category: "Burgers • Fries • Desserts",
-    badge: "Fresh Made • Open Late • Phone: 8277483778",
-    phone: "8277483778",
+    badge: "Fresh Made • Open Late • Phone: 8277463778",
+    phone: "8277463778",
     description: "Gourmet smash burgers on artisan brioche buns, loaded seasoned fries, and decadent desserts. All burgers contain onion, lettuce & a slice of cheese, served with fries & in house dip.",
     fullStory: "Chef Aqsa brought pastry-level dough science to smash burgers — fermenting golden butter-rich brioche buns daily and pairing them with high-heat smash patties, proprietary seasoning, and chef's cheesy sauces.",
     popularItems: [
@@ -237,8 +237,8 @@ export const SISTER_BRANDS: SisterBrand[] = [
     id: "the-cream-room",
     name: "The Cream Room",
     category: "Small Batch Ice Cream Studio",
-    badge: "No Chemicals • Real Ingredients • Phone: 8277483778",
-    phone: "8277483778",
+    badge: "No Chemicals • Real Ingredients • Phone: 8277463778",
+    phone: "8277463778",
     description: "Per cup is 125ml. No churn soft serve ice creams made with real ingredients, no chemicals, stabilisers or preservatives added.",
     fullStory: "Crafted as a pure small-batch ice cream studio, each 125ml cup is made from scratch with genuine dairy cream, real vanilla beans, fresh fruit, and zero artificial stabilizers.",
     popularItems: [

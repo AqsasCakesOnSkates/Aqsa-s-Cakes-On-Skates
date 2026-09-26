@@ -13,7 +13,7 @@ export function generateUpiUri(totalAmount: number): string {
 
 /**
  * Generates the WhatsApp direct verification link with pre-formatted order summary
- * opening https://wa.me/918277483778?text=${encodedMessage}
+ * opening https://wa.me/918277463778?text=${encodedMessage}
  */
 export function generateWhatsAppConfirmationUrl(order: Order): string {
   const itemizedList = order.items
