@@ -1,0 +1,6 @@
+{
+  "name": "Aqsa's Cakes on Skates",
+  "description": "Boutique French patisserie and custom cake studio in Belgaum & Goa by Chef Aqsa Lakdawala. Handcrafted celebration cakes, chilled cheesecakes, bomboloni, and direct UPI checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EBF4FA" />
+      <stop offset="70%" stop-color="#DEEDF7" />
+      <stop offset="100%" stop-color="#CFE4F2" />
+    </radialGradient>
+    
+    <!-- Cupcake Frosting Gradient -->
+    <linearGradient id="frostingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FED7E2" />
+      <stop offset="50%" stop-color="#FBB6CE" />
+      <stop offset="100%" stop-color="#F687B3" />
+    </linearGradient>
+
+    <!-- Cupcake Cup Gradient -->
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F687B3" />
+      <stop offset="100%" stop-color="#ED64A6" />
+    </linearGradient>
+
+    <!-- Skateboard Gradient -->
+    <linearGradient id="skateGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FED7E2" />
+      <stop offset="50%" stop-color="#FBB6CE" />
+      <stop offset="100%" stop-color="#F687B3" />
+    </linearGradient>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#C53030" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Circular Badge Background -->
+  <circle cx="250" cy="250" r="236" fill="url(#bgGrad)" stroke="#FFFFFF" stroke-width="8" filter="url(#softShadow)" />
+
+  <!-- SKATEBOARD -->
+  <!-- Shadow under skateboard -->
+  <ellipse cx="250" cy="335" rx="110" ry="12" fill="#BEE3F8" opacity="0.6" />
+  
+  <!-- Wheels -->
+  <circle cx="185" cy="328" r="9" fill="#D53F8C" stroke="#97266D" stroke-width="2.5" />
+  <circle cx="185" cy="328" r="3" fill="#FFF" />
+  <circle cx="315" cy="328" r="9" fill="#D53F8C" stroke="#97266D" stroke-width="2.5" />
+  <circle cx="315" cy="328" r="3" fill="#FFF" />
+  
+  <!-- Skateboard Deck -->
+  <path d="M 140 316 C 140 310, 160 306, 250 306 C 340 306, 360 310, 360 316 C 360 322, 340 324, 250 324 C 160 324, 140 322, 140 316 Z" 
+        fill="url(#skateGrad)" stroke="#ED64A6" stroke-width="3" />
+  <!-- Skateboard trucks -->
+  <rect x="181" y="320" width="8" height="6" fill="#CBD5E0" rx="2" />
+  <rect x="311" y="320" width="8" height="6" fill="#CBD5E0" rx="2" />
+
+  <!-- CUPCAKE LEGS -->
+  <!-- Left Leg & Shoe -->
+  <path d="M 230 270 Q 220 295 210 305" stroke="#F687B3" stroke-width="12" stroke-linecap="round" fill="none" />
+  <ellipse cx="205" cy="308" rx="16" ry="9" fill="#ED64A6" />
+  <!-- Right Leg (in motion kicking back) -->
+  <path d="M 270 270 Q 320 280 340 288" stroke="#F687B3" stroke-width="12" stroke-linecap="round" fill="none" />
+  <ellipse cx="345" cy="289" rx="14" ry="8" transform="rotate(25 345 289)" fill="#ED64A6" />
+
+  <!-- CUPCAKE CUP (BODY) -->
+  <path d="M 195 190 L 210 275 Q 250 284 290 275 L 305 190 Z" fill="url(#cupGrad)" stroke="#ED64A6" stroke-width="2" />
+  <!-- Cup Flutes / Pleats -->
+  <path d="M 218 190 L 227 277" stroke="#FBB6CE" stroke-width="2.5" opacity="0.8" />
+  <path d="M 240 190 L 243 279" stroke="#FBB6CE" stroke-width="2.5" opacity="0.8" />
+  <path d="M 260 190 L 257 279" stroke="#FBB6CE" stroke-width="2.5" opacity="0.8" />
+  <path d="M 282 190 L 273 277" stroke="#FBB6CE" stroke-width="2.5" opacity="0.8" />
+
+  <!-- KAWAII FACE -->
+  <!-- Left Eye -->
+  <ellipse cx="232" cy="230" rx="7.5" ry="9.5" fill="#2D3748" />
+  <circle cx="230" cy="226" r="3" fill="#FFFFFF" />
+  <circle cx="235" cy="233" r="1.5" fill="#FFFFFF" />
+  <!-- Right Eye -->
+  <ellipse cx="268" cy="230" rx="7.5" ry="9.5" fill="#2D3748" />
+  <circle cx="266" cy="226" r="3" fill="#FFFFFF" />
+  <circle cx="271" cy="233" r="1.5" fill="#FFFFFF" />
+  <!-- Cheeks -->
+  <ellipse cx="218" cy="238" rx="6" ry="3.5" fill="#F687B3" opacity="0.7" />
+  <ellipse cx="282" cy="238" rx="6" ry="3.5" fill="#F687B3" opacity="0.7" />
+  <!-- Smile -->
+  <path d="M 244 240 Q 250 248 256 240" stroke="#2D3748" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+  <!-- CUPCAKE FROSTING (SWIRLS) -->
+  <!-- Layer 1 (Bottom Swirl) -->
+  <path d="M 180 195 C 170 170, 200 155, 250 155 C 300 155, 330 170, 320 195 C 315 208, 185 208, 180 195 Z" fill="#F687B3" />
+  <!-- Layer 2 (Middle Swirl) -->
+  <path d="M 195 162 C 190 138, 220 120, 250 120 C 280 120, 310 138, 305 162 C 300 172, 200 172, 195 162 Z" fill="#FBB6CE" />
+  <!-- Layer 3 (Upper Swirl) -->
+  <path d="M 212 128 C 210 102, 230 85, 250 85 C 270 85, 290 102, 288 128 C 285 136, 215 136, 212 128 Z" fill="#FED7E2" />
+  <!-- Swirl Top Peak -->
+  <path d="M 235 90 C 235 60, 252 40, 258 45 C 265 52, 255 75, 265 90 Z" fill="#F687B3" />
+
+  <!-- SPRINKLES (COLORFUL JIMMIES) -->
+  <!-- Purple sprinkles -->
+  <rect x="235" y="60" width="10" height="3" rx="1.5" transform="rotate(25 235 60)" fill="#805AD5" />
+  <rect x="270" y="85" width="12" height="3.5" rx="1.5" transform="rotate(-35 270 85)" fill="#805AD5" />
+  <rect x="220" y="105" width="11" height="3.5" rx="1.5" transform="rotate(40 220 105)" fill="#805AD5" />
+  <rect x="280" y="135" width="12" height="3.5" rx="1.5" transform="rotate(-15 280 135)" fill="#805AD5" />
+  <rect x="210" y="150" width="12" height="3.5" rx="1.5" transform="rotate(30 210 150)" fill="#805AD5" />
+  <rect x="245" y="175" width="12" height="3.5" rx="1.5" transform="rotate(-25 245 175)" fill="#805AD5" />
+  <!-- White sprinkles -->
+  <rect x="250" y="70" width="10" height="3" rx="1.5" transform="rotate(-45 250 70)" fill="#FFFFFF" />
+  <rect x="240" y="125" width="11" height="3" rx="1.5" transform="rotate(10 240 125)" fill="#FFFFFF" />
+  <rect x="260" y="155" width="12" height="3.5" rx="1.5" transform="rotate(50 260 155)" fill="#FFFFFF" />
+  <rect x="295" y="170" width="11" height="3" rx="1.5" transform="rotate(-30 295 170)" fill="#FFFFFF" />
+  <!-- Magenta sprinkles -->
+  <rect x="230" y="80" width="10" height="3" rx="1.5" transform="rotate(15 230 80)" fill="#D53F8C" />
+  <rect x="260" y="110" width="11" height="3.5" rx="1.5" transform="rotate(-60 260 110)" fill="#D53F8C" />
+  <rect x="210" y="170" width="12" height="3.5" rx="1.5" transform="rotate(20 210 170)" fill="#D53F8C" />
+  <rect x="310" y="185" width="10" height="3.5" rx="1.5" transform="rotate(45 310 185)" fill="#D53F8C" />
+
+  <!-- LEFT ARM & PLATTER (CAKE) -->
+  <path d="M 200 230 Q 155 245 125 240" stroke="#F687B3" stroke-width="11" stroke-linecap="round" fill="none" />
+  <!-- Platter -->
+  <ellipse cx="115" cy="240" rx="30" ry="4" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="1.5" />
+  <!-- Mini 2-tier Cake -->
+  <rect x="95" y="222" width="40" height="15" rx="2" fill="#7B341E" />
+  <path d="M 95 224 Q 115 228 135 224" stroke="#FFF" stroke-width="2" fill="none" />
+  <rect x="103" y="210" width="24" height="12" rx="2" fill="#9B2C2C" />
+  <path d="M 103 212 Q 115 215 127 212" stroke="#FFF" stroke-width="2" fill="none" />
+  <!-- Cherry / Raspberry -->
+  <circle cx="115" cy="206" r="4" fill="#E53E3E" />
+
+  <!-- RIGHT ARM & PLATTER (COOKIES & DONUTS) -->
+  <path d="M 300 230 Q 345 225 385 218" stroke="#F687B3" stroke-width="11" stroke-linecap="round" fill="none" />
+  <!-- Platter -->
+  <ellipse cx="385" cy="216" rx="32" ry="4" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="1.5" />
+  <!-- Cookies -->
+  <circle cx="366" cy="208" r="8" fill="#D69E2E" />
+  <circle cx="364" cy="206" r="1.5" fill="#744210" />
+  <circle cx="368" cy="209" r="1.5" fill="#744210" />
+  <!-- Pink Frosted Donut -->
+  <ellipse cx="386" cy="207" rx="8" ry="6" fill="#ED64A6" />
+  <ellipse cx="386" cy="207" rx="3" ry="2" fill="#FAF5FF" />
+  <!-- Purple Frosted Donut -->
+  <ellipse cx="403" cy="207" rx="8" ry="6" fill="#805AD5" />
+  <ellipse cx="403" cy="207" rx="3" ry="2" fill="#FAF5FF" />
+
+  <!-- RETRO CURSIVE SCRIPT BRAND TYPOGRAPHY -->
+  <g text-anchor="middle" filter="url(#softShadow)">
+    <!-- "Aqsa's" -->
+    <text x="145" y="380" 
+          font-family="'Brush Script MT', 'Dancing Script', 'Playfair Display', cursive, serif" 
+          font-size="46" 
+          font-style="italic" 
+          font-weight="bold" 
+          fill="#D53F8C">
+      Aqsa's
+    </text>
+    
+    <!-- "Cakes On Skates" -->
+    <text x="270" y="425" 
+          font-family="'Brush Script MT', 'Dancing Script', 'Playfair Display', cursive, serif" 
+          font-size="48" 
+          font-style="italic" 
+          font-weight="bold" 
+          letter-spacing="0.5"
+          fill="#D53F8C">
+      Cakes On Skates
+    </text>
+  </g>
+</svg>
